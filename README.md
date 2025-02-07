@@ -5,9 +5,13 @@ Domain: Python Programming
 Duration: December,2024 to February,2025            
 Mentor:NEELA SANTOSH KUMAR           
 
-OVERVIEW OF THE PROJECT
+**OVERVIEW OF THE PROJECT**      
 
-PROJECT: STUDENT GRADE TRACKER SYSTEM
+**PROJECT: STUDENT GRADE TRACKER SYSTEM**      
+![image](https://github.com/user-attachments/assets/098e2b22-bcd6-4960-aebc-7d57e15ab1b4)          
+![image](https://github.com/user-attachments/assets/f2c4389b-9170-48ec-9a8e-1c62e0ff12d7)
+
+
 
 **1. PROJECT DESCRIPTION:**                           
 The Student Grade Tracker is a Python-based application designed to help teachers or educators manage student grades efficiently. It allows users to:            
