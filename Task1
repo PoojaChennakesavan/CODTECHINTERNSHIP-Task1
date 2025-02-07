@@ -482,7 +482,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q1laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q1avg))
     self.q1laba.grid(row = 0, column = 1)
 
-    self.q1button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz1graph)
+    self.q1button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz1graph)
     self.q1button.grid(row = 0, column = 3)
 
     self.q2lab = tkinter.Label(self.frame,font=("Helvetica", 10), text = "Quiz 2: ")
@@ -491,7 +491,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q2laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q2avg))
     self.q2laba.grid(row = 1, column = 1)
 
-    self.q2button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz2graph)
+    self.q2button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz2graph)
     self.q2button.grid(row = 1, column = 3)
     
     self.q3lab = tkinter.Label(self.frame,font=("Helvetica", 10), text = "Quiz 3: ")
@@ -500,7 +500,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q3laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q3avg))
     self.q3laba.grid(row = 2, column = 1)
 
-    self.q3button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz3graph)
+    self.q3button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz3graph)
     self.q3button.grid(row = 2, column = 3)
 
     self.q4lab = tkinter.Label(self.frame,font=("Helvetica", 10), text = "Quiz 4: ")
@@ -509,7 +509,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q4laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q4avg))
     self.q4laba.grid(row = 3, column = 1)
 
-    self.q4button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz4graph)
+    self.q4button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz4graph)
     self.q4button.grid(row = 3, column = 3)
     
     self.q5lab = tkinter.Label(self.frame,font=("Helvetica", 10), text = "Quiz 5: ")
@@ -518,7 +518,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q5laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q5avg))
     self.q5laba.grid(row = 4, column = 1)
 
-    self.q5button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz5graph)
+    self.q5button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz5graph)
     self.q5button.grid(row = 4, column = 3)
     
     self.q6lab = tkinter.Label(self.frame,font=("Helvetica", 10), text = "Quiz 6: ")
@@ -527,7 +527,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.q6laba = tkinter.Label(self.frame,font=("Helvetica", 10), text = str(q6avg))
     self.q6laba.grid(row = 5, column = 1)
 
-    self.q6button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Graph", command = self.quiz6graph)
+    self.q6button = tkinter.Button(self.frame,font=("Helvetica", 10), text = "Display Grade", command = self.quiz6graph)
     self.q6button.grid(row = 5, column = 3)
     
     self.frame2 = tkinter.LabelFrame(self,font=("Helvetica", 10), text = "Exam & Participation Averages")
@@ -539,7 +539,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.midlaba = tkinter.Label(self.frame2,font=("Helvetica", 10), text = str(midavg))
     self.midlaba.grid(row = 0, column = 1)
 
-    self.midbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Graph", command = self.midgraph)
+    self.midbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Grade", command = self.midgraph)
     self.midbutton.grid(row = 0, column = 3)
     
     self.finlab = tkinter.Label(self.frame2,font=("Helvetica", 10), text = "Final Exam: ")
@@ -548,7 +548,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.finlaba = tkinter.Label(self.frame2,font=("Helvetica", 10), text = str(finavg))
     self.finlaba.grid(row = 1, column = 1)
 
-    self.finbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Graph", command = self.fingraph)
+    self.finbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Grade", command = self.fingraph)
     self.finbutton.grid(row = 1, column = 3)
     
     self.partlab = tkinter.Label(self.frame2,font=("Helvetica", 10), text = "Participation: ")
@@ -557,7 +557,7 @@ class DisplayClassGrades(tkinter.Toplevel):
     self.partlaba = tkinter.Label(self.frame2,font=("Helvetica", 10), text = str(partavg))
     self.partlaba.grid(row = 2, column = 1)
 
-    self.partbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Graph", command = self.partgraph)
+    self.partbutton = tkinter.Button(self.frame2,font=("Helvetica", 10), text = "Display Grade", command = self.partgraph)
     self.partbutton.grid(row = 2, column = 3)
     
     self.overalllab = tkinter.Label(self,font=("Helvetica", 10), text = "Final Grade Average: ")
