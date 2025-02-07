@@ -7,7 +7,7 @@ Mentor:NEELA SANTOSH KUMAR
 
 OVERVIEW OF THE PROJECT
 
-PROJECT: A Simple Calculator using Python
+PROJECT: STUDENT GRADE TRACKER SYSTEM
 
 1. PROJECT DESCRIPTION:                 
 The Student Grade Tracker is a Python-based application designed to help teachers or educators manage student grades efficiently. It allows users to:            
