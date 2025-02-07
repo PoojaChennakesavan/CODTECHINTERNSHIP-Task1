@@ -9,7 +9,7 @@ OVERVIEW OF THE PROJECT
 
 PROJECT: STUDENT GRADE TRACKER SYSTEM
 
-1. PROJECT DESCRIPTION:                 
+**1. PROJECT DESCRIPTION:**                           
 The Student Grade Tracker is a Python-based application designed to help teachers or educators manage student grades efficiently. It allows users to:            
 - Add and manage student information.            
 - Input and track grades for various assessments (quizzes, midterms, finals, participation).                 
@@ -19,15 +19,15 @@ The Student Grade Tracker is a Python-based application designed to help teacher
 
 The application is built using Tkinter for the graphical user interface (GUI) and **matplotlib** for data visualization. It also uses **pickle** for saving and loading class data.                
 
-2. KEY FEATURES:            
+**2. KEY FEATURES:**            
 The project includes the following features:           
 
-2.1.Student management:          
+**2.1.Student management:**                  
 - Add new students to a class.           
 - Remove students from a class.           
 - View a list of all students in a class.           
 
-2.2.Grade Management:            
+**2.2.Grade Management:**                      
 - Add grades for individual students or the entire class.           
 - Input grades for quizzes, midterms, finals, and participation.            
 - Automatically calculate final grades based on predefined weights:              
@@ -36,22 +36,23 @@ The project includes the following features:
   - Final Exam: 30%                 
   - Participation: 15%                  
 
-2.3.Grade Visualization:             
+**2.3.Grade Visualization:**                   
 - Display class averages for each assessment.              
 - Visualize grade distributions using bar charts (via **matplotlib**).            
 
-2.4.Data Persistence:               
+**2.4.Data Persistence:**                       
 - Save class data (student information and grades) to files using **pickle**.            
 - Load saved class data when reopening the application.                 
 
-Error Handling:    
+**2.5.Error Handling:**          
 - Validate user inputs (e.g., ensure grades are numeric and within the valid range).      
 - Display error messages for invalid inputs or missing data.    
 
-3. TECHNOLOGIES USED:        
+**3. TECHNOLOGIES USED:**                
 The project leverages the following technologies and libraries:    
 
-  Core Python: The application is written in **Python**, making it easy to understand and extend.    
+  Core Python:    
+    -The application is written in **Python**, making it easy to understand and extend.    
   Tkinter:   
     - Used foR building the **graphical user interface (GUI)**.      
     - Provides widgets like buttons, labels, entry fields, and listboxes for user interaction.      
@@ -64,10 +65,10 @@ The project leverages the following technologies and libraries:
   File Handling:    
     - Reads and writes to text files (e.g., `Classes` file) to manage class names.      
 
-4. PROJECT STRUCTURE:        
+**4. PROJECT STRUCTURE:**                
 The project is organized into several classes, each handling a specific functionality:        
 
-4.1.Main Classes:     
+**Main Classes:**         
  App:     
    - The main application window.     
    - Allows users to select a class or add a new class.        
@@ -99,7 +100,7 @@ Helper Classes:
 - **`DisplayClassGrades`**: Displays class averages and allows visualization of grade distributions.                  
 - **`ClassGraphAverage`**: Generates bar charts for grade distributions.                          
 
-5.WORKFLOW:       
+**5.WORKFLOW:**       
 1. **Start the Application**:     
    - The user launches the application and sees a list of available classes.            
 
@@ -117,7 +118,7 @@ Helper Classes:
    - Class data is saved automatically using **pickle**.                     
    - The user can reload saved data when reopening the application.                     
 
-6. CHALLENGES AND SOLUTIONS:       
+**6. CHALLENGES AND SOLUTIONS:**              
 #### **Challenges**            
 1. **Data Persistence**:                   
    - Storing and retrieving student and grade data efficiently.              
